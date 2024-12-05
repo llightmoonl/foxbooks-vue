@@ -1,5 +1,7 @@
 <script setup></script>
 
-<template>ewcwec</template>
+<template>
+
+</template>
 
 <style scoped lang="sass"></style>

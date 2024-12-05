@@ -2,8 +2,9 @@ import { createApp } from "vue";
 import { createMemoryHistory, createRouter } from "vue-router";
 
 import App from "./App.vue";
+import '@/assets/scss/styles.scss';
 import HomeView from "./components/views/HomeView.vue";
-import "./style.css";
+
 
 const routes = [{ path: "/", component: HomeView }];
 
