@@ -9,9 +9,13 @@ import {Heart} from "lucide-vue-next";
     <header class="header">
         <Container>
           <div class="header__content">
-            <RouterLink class to="/">
-              <img src="#" alt="Foxbooks Logo" />
-            </RouterLink>
+            <div class="header__left">
+              <RouterLink class to="/">
+                <img src="#" alt="Foxbooks Logo" />
+              </RouterLink>
+
+            </div>
+
             <nav class="menu">
               <ul class="menu__list">
                 <li class="menu__element"><Heart /></li>
